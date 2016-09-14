@@ -44,8 +44,8 @@ public class MergeSort {
 			B[z] = A[z];
 		}
 		
-		System.out.print("printing the helper --> ");
-		printArray(B);
+		//System.out.print("printing the helper --> ");
+		//printArray(B);
 		
 		while(i <= middle && j <= right){
 			if( B[i] <= B[j] ){
@@ -58,8 +58,8 @@ public class MergeSort {
 			//k++;
 		}
 		
-		System.out.println("i=" + i);
-		System.out.println("k=" + k);
+		//System.out.println("i=" + i);
+		//System.out.println("k=" + k);
 		while( i <= middle){
 			A[k++] = B[i++];
 		}
