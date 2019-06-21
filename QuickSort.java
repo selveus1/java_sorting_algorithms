@@ -3,9 +3,7 @@ import java.util.Random;
 public class QuickSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] array = new int[9]; 
-		//int[] array = {1, 12, 5, 26, 7, 14, 3, 7, 2}; //initializeArray(array); //{12, 6, -2, 8, 1, 9};
 		array = initializeArray(array);
 		
 		printArray(array);
@@ -30,8 +28,6 @@ public class QuickSort {
 		
 		int i=left;
 		int j=right;
-		System.out.println("first i=" + i);
-		System.out.println("first j=" + j + "\n");
 		
 		while( i<=j ){
 			while(arr[i] < pivot)
@@ -47,8 +43,6 @@ public class QuickSort {
 				i++;
 				j--;
 			}
-			System.out.println("i=" + i);
-			System.out.println("j=" + j + "\n");
 		}
 		
 		return i;

@@ -3,7 +3,6 @@ import java.util.Random;
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] array = new int[9]; 
 		array = initializeArray(array);
 		
@@ -31,8 +30,6 @@ public class SelectionSort {
 			int temp = arr[index];
 			arr[index] = arr[i];
 			arr[i] = temp;
-					
-			
 		}
 	}
 	

@@ -3,8 +3,6 @@ import java.util.Random;
 public class InsertionSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		int[] array = new int[9]; 
 		array = initializeArray(array);
 		

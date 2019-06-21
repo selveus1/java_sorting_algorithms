@@ -3,8 +3,6 @@ import java.util.Random;
 public class BubbleSort {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		int[] array = new int[9]; 
 		array = initializeArray(array);
 		
@@ -14,11 +12,9 @@ public class BubbleSort {
 	}
 
 	
-	
 	public static void bubbleSort(int[] arr){
 		
 		for(int i=0; i<arr.length-1; i++){
-			
 			for(int j=i+1; j<arr.length; j++){
 				
 				if(arr[i] > arr[j]){
@@ -28,13 +24,8 @@ public class BubbleSort {
 				}
 				
 			}
-			
-			
-					
-			
 		}
 	}
-	
 	
 	
 	public static void printArray(int[] array){
@@ -45,7 +36,6 @@ public class BubbleSort {
 		System.out.println("  " );
 	}
 
-	
 	
 	public static int[] initializeArray(int[] a){
 		Random randomInsert = new Random();
